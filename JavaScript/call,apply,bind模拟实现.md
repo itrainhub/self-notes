@@ -73,7 +73,7 @@
 
   ```js
     var foo = {
-    value: 1
+      value: 1
     }
     function test() {
       console.log(this.value)
