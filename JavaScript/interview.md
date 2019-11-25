@@ -86,6 +86,7 @@ webpack 使用
 		-- padding: 25% 0;
 
 1. 输入框顺序输入，顺序执行
+  P = Promise.resolve(), 全局的 Promise
 2. 100 个 Promise，顺序执行
 3. 跨域，cookie
 4. 移动端（没问）

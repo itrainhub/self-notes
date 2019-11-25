@@ -42,3 +42,10 @@
       })
     }
   ```
+
+  ### 脏检查（Angular）
+  [参考链接](https://juejin.im/entry/5ac85a5d6fb9a028da7cc7da)
+  [zonJs](https://medium.com/@MertzAlertz/what-the-hell-is-zone-js-and-why-is-it-in-my-angular-2-6ff28bcf943e)
+
+  组件树中，一旦检测到数据变化，则深度遍历找到变化部分，更新数据和视图
+  Angular 2 以后，使用 zooJs 来监听所有的异步事件。
