@@ -1,8 +1,6 @@
 
 ## CSRF (跨站点脚本攻击)
 
-
-
 防止 CSRF 的几种方式
 
 1. Using a secret cookie
