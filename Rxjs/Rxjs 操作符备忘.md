@@ -21,7 +21,11 @@
 `Map` 最简单， map a plain value like 1 to another value like 10, 其他的 `*Map` 则不同，它们会 map a value into an Observable, they can help us avoid nested subscriptions.
 
 
-
-
-
 mergeMap: This operator is best used when you wish to flatten an inner observable but want to manually control the number of inner subscriptions.
+
+## shareDelay
+  后续的监听也能得到值
+
+aafasdf
+
+
