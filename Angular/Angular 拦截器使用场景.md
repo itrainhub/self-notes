@@ -38,7 +38,7 @@
 
     loaderService.show()
 
-    return next.hande(req).pipe(
+    return next.handle(req).pipe(
       delay(500),
       finalize(() => loaderService.hide())
     )

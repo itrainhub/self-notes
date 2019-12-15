@@ -25,7 +25,3 @@ mergeMap: This operator is best used when you wish to flatten an inner observabl
 
 ## shareDelay
   后续的监听也能得到值
-
-aafasdf
-
-

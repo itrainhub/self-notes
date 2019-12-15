@@ -18,7 +18,7 @@
 
   ## background-size
     * contain 会让整个图片完整显示出来，但如果container 的宽度或者高度偏小，会对图片做相应的伸缩 
-    * cover 会等比缩放图拍呢，使其能够填充整个container，图片不会失真
+    * cover 会等比缩放图片，使其能够填充整个container，图片不会失真
 
   ## background-origin
     原点盒模型
@@ -31,7 +31,6 @@
     * fixed 固定
     * local
 
-
   ## background-clip
     明确背景绘制区域
     border-box(默认)
@@ -41,10 +40,6 @@
 
     origin 是明确背景应该放置区域的起点
     clip 是明确哪部分背景应该显示
-
-
-
-
 
 ## 场景
   [css tricks](https://css-tricks.com/perfect-full-page-background-image/)
