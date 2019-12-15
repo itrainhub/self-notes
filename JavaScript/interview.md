@@ -91,3 +91,12 @@ webpack 使用
 3. 跨域，cookie
 4. 移动端（没问）
 
+1. localStorage 过期时间
+2. setTimeOut + Promise (F)
+3. 水平垂直居中三种
+4. 跨域两种解决方案
+5. 常见行内元素
+6. css 选择器优先级
+7. ... 操作符 + this
+8. 箭头函数(F)
+
