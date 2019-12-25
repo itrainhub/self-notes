@@ -24,3 +24,10 @@
 
     }
   ```
+
+5. defer 
+  函数执行完毕后执行，具有以下特点：
+    1. 定义时 evaluated
+    2. FILO 先进后出
+
+6. panic & recover
