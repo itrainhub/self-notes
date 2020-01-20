@@ -23,5 +23,14 @@
 
 mergeMap: This operator is best used when you wish to flatten an inner observable but want to manually control the number of inner subscriptions.
 
-## shareDelay
+### shareDelay
   后续的监听也能得到值
+
+### scan
+  相当于 Array 中的 reduce
+
+### pluck 
+  选择 source 中的某个属性
+
+### from
+  turn an array, promise, or iterable into an observable
