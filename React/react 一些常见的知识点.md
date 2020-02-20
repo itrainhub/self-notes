@@ -27,3 +27,20 @@
 
 
 4. 函数组件中使用 React.memo() 导出
+
+5. 函数组件中使用异步方法去获取数据，再渲染的场景下，会报错，原因是函数组件没有类组件那么多声明周期： `componentDidMount` 和 `componentDidUpdate`，我们可以使用 `hooks` 来解决该问题：
+
+```js
+  const [fileName, setFileName] = useState(null)
+  useEffect(() => {
+    if (!!fileName) {
+      return
+    }
+    const getFileName = async () => {
+      const id = history.location.pathname.split('/')[2]
+      const { data } = await getFile(id)
+      setFileName(data.name)
+    }
+    getFileName()
+  })
+```
